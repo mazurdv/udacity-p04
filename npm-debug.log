@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'gulpjs#4.0' ]
+2 info using npm@3.8.6
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData gulpjs#4.0
+9 silly fetchOtherPackageData gulpjs#4.0
+10 silly cache add args [ 'gulpjs#4.0', null ]
+11 verbose cache add spec gulpjs#4.0
+12 silly cache add parsed spec { raw: 'gulpjs#4.0',
+12 silly cache add   scope: null,
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: 'gulpjs#4.0',
+12 silly cache add   spec: '/home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0',
+12 silly cache add   type: 'local' }
+13 error addLocal Could not install /home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0
+14 silly fetchPackageMetaData Error: ENOENT, open '/home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0'
+14 silly fetchPackageMetaData  error for gulpjs#4.0 { [Error: ENOENT, open '/home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0']
+14 silly fetchPackageMetaData   errno: 34,
+14 silly fetchPackageMetaData   code: 'ENOENT',
+14 silly fetchPackageMetaData   path: '/home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0' }
+15 silly rollbackFailedOptional Starting
+16 silly rollbackFailedOptional Finishing
+17 silly runTopLevelLifecycles Starting
+18 silly runTopLevelLifecycles Finishing
+19 silly install printInstalled
+20 verbose stack Error: ENOENT, open '/home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0'
+21 verbose cwd /home/dmitry/PhpstormProjects/udacity-p04
+22 error Linux 3.13.0-74-lowlatency
+23 error argv "node" "/usr/local/bin/npm" "install" "gulpjs#4.0"
+24 error node v0.10.25
+25 error npm  v3.8.6
+26 error path /home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0
+27 error code ENOENT
+28 error errno 34
+29 error enoent ENOENT, open '/home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0'
+30 error enoent ENOENT, open '/home/dmitry/PhpstormProjects/udacity-p04/gulpjs#4.0'
+30 error enoent This is most likely not a problem with npm itself
+30 error enoent and is related to npm not being able to find a file.
+31 verbose exit [ 34, true ]
